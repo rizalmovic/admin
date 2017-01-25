@@ -16,7 +16,7 @@
                         @yield('title')
                         <div class="panel-action">
                             <div class="btn-group">
-                                <a href="javascript:;" class="btn btn-sm btn-default"><i class="fa icon-settings"></i> Settings</a>
+                                <a href="{{ route('admin.settings.index') }}" class="btn btn-sm btn-default"><i class="fa icon-settings"></i> Settings</a>
                                 <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span class="caret"></span>
                                     <span class="sr-only">Toggle Dropdown</span>
