@@ -1,0 +1,18 @@
+{
+    "name": "rizalmovic/admin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Habli Muhammad Rizal",
+            "email": "rizalmovic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rizalmovic\\Admin\\": "src/Admin"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
